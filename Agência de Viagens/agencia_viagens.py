@@ -13,7 +13,6 @@ Helder Monteiro , Liliana Gonçalves , Bruna Monteiro , Racia Atanásio
 20 de Março 2026
 """
 
-# Verifiquem o PEP 8
 
 import pandas as pd
 from datetime import datetime
