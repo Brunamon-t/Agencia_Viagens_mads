@@ -102,22 +102,23 @@ def filtrar_por_periodo(df, data_inicio, data_fim):
 
 """#Zona de Teste"""
 
-v1 = {
-    "user_id": 3, "origem": "Porto", "destino": "Lisboa", "transporte": "Avião",
-    "custo_transporte": 50.0, "custo_alojamento": 100.0, "custo_alimentacao": 60.0,
-    "data_inicio": "2026-05-01", "data_fim": "2026-05-10"
-}
-viagens = adicionar_viagem(viagens, v1)
+if __name__ == "__main__":
+    v1 = {
+        "user_id": 3, "origem": "Porto", "destino": "Lisboa", "transporte": "Avião",
+        "custo_transporte": 50.0, "custo_alojamento": 100.0, "custo_alimentacao": 60.0,
+        "data_inicio": "2026-05-01", "data_fim": "2026-05-10"
+    }
+    viagens = adicionar_viagem(viagens, v1)
 
-v2 = {
-    "user_id": 3, "origem": "Lisboa", "destino": "Faro", "transporte": "Comboio",
-    "custo_transporte": 20.0, "custo_alojamento": 40.0, "custo_alimentacao": 30.0,
-    "data_inicio": "2026-05-05", "data_fim": "2026-05-15"
-}
+    v2 = {
+        "user_id": 3, "origem": "Lisboa", "destino": "Faro", "transporte": "Comboio",
+        "custo_transporte": 20.0, "custo_alojamento": 40.0, "custo_alimentacao": 30.0,
+        "data_inicio": "2026-05-05", "data_fim": "2026-05-15"
+    }
 
-try:
-    viagens = adicionar_viagem(viagens, v2)
-except ValueError as e:
-    print(f"Bloqueio de segurança: {e}")
+    try:
+        viagens = adicionar_viagem(viagens, v2)
+    except ValueError as e:
+        print(f"Bloqueio de segurança: {e}")
 
-display(viagens)
+    print(viagens)
