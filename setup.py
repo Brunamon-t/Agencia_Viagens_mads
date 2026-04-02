@@ -5,8 +5,8 @@ BASE_DIR = Path(__file__).parent.resolve()
 README = (BASE_DIR / "README.md").read_text(encoding="utf-8")
 
 setup(
-    name="agencia-viagens-mads-grupo4", 
-    version="1.0.3",
+    name="agencia-viagens-mads-2026-final", 
+    version="1.0.4",
     description="Sistema de gestão de viagens com validação de custos e geolocalização",
     long_description=README,
     long_description_content_type="text/markdown",
