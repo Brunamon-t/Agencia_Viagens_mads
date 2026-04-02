@@ -17,11 +17,7 @@ Helder Monteiro , Liliana Gonçalves , Bruna Monteiro , Racia Atanásio
 import pandas as pd
 from datetime import datetime
 
-viagens = pd.DataFrame(columns=[
-    "user_id", "origem", "destino", "transporte",
-    "custo_transporte", "custo_alojamento", "custo_alimentacao",
-    "custo_total", "data_inicio", "data_fim"
-])
+
 
 """#Lista de Transportes validos possivel adicionar/remover"""
 
