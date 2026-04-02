@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="agencia-viagens-mads-2026-v-final-total", # NOME NOVO
-    version="1.1.0",                                # VERSÃO NOVA
+    name="Agencia-Viagens-mads", 
+    version="1.1.0",                               
     description="Sistema de gestão de viagens",
     long_description="Sistema de gestão de viagens com validação de custos e geolocalização",
     long_description_content_type="text/plain",     # MAIS SIMPLES
