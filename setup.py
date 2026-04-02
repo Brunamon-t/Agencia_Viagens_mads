@@ -1,7 +1,6 @@
 from pathlib import Path
 from setuptools import find_packages, setup
 
-# Define o diretório base e lê o README para a descrição longa
 BASE_DIR = Path(__file__).parent.resolve()
 README = (BASE_DIR / "README.md").read_text(encoding="utf-8")
 
@@ -15,11 +14,11 @@ setup(
     # Lista de todos os autores do grupo
     author="Bruna Monteiro, Helder Monteiro, Liliana Gonçalves, Rácia Atanásio",
     author_email="A045875@ipmaia.pt",
-    url="https://github.com/agencia-viagens-mads",
+    url="https://github.com/Brunamon-t/Agencia_Viagens_mads",
     
     project_urls={
-        "Source": "https://github.com/[teu-utilizador]/agencia-viagens-mads",
-        "Issues": "https://github.com/[teu-utilizador]/agencia-viagens-mads/issues",
+        "Source": "https://github.com/Brunamon-t/Agencia_Viagens_mads",
+        "Issues": "https://github.com/Brunamon-t/Agencia_Viagens_mads/issues",
     },
     
     packages=find_packages(),
