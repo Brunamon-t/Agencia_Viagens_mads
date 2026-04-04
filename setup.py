@@ -6,7 +6,7 @@ README = (BASE_DIR / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="Agencia-Viagens-mads", 
-    version="1.1.1",                               
+    version="1.4.0",                               
     description="Sistema de gestão de viagens",
     long_description="Sistema de gestão de viagens com validação de custos e geolocalização",
     long_description_content_type="text/plain",     # MAIS SIMPLES
