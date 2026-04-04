@@ -13,6 +13,7 @@ setup(
     include_package_data=True,
     install_requires=[
         "pandas>=2.0.0",
+        "geopy>=2.3.0",
     ],
     python_requires=">=3.8",
 )
