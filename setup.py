@@ -6,9 +6,9 @@ README = (BASE_DIR / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="Agencia-Viagens-mads", 
-    version="1.4.0",                               
+    version="1.5.0",                               
     description="Sistema de gestão de viagens",
-    long_description="Sistema de gestão de viagens com validação de custos e geolocalização",
+    long_description=README,
     long_description_content_type="text/markdown",     
     author="Bruna Monteiro, Hélder Monteiro, Liliana Gonçalves, Rácia Atanásio",
     author_email="A045875@ipmaia.pt",
