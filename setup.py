@@ -1,8 +1,12 @@
+from pathlib import Path
 from setuptools import setup, find_packages
+
+BASE_DIR = Path(__file__).parent.resolve()
+README = (BASE_DIR / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="Agencia-Viagens-mads", 
-    version="1.2.0",                               
+    version="1.1.1",                               
     description="Sistema de gestão de viagens",
     long_description="Sistema de gestão de viagens com validação de custos e geolocalização",
     long_description_content_type="text/plain",     # MAIS SIMPLES
