@@ -67,13 +67,14 @@ def gerar_mapa_viagens(df, ficheiro="mapa_viagens.html"):
   return mapa
 
 
-#Zona de Teste
+if __name__ == "__main__":
+  #Zona de Teste
 
-dist = distancia_viagem("Porto", "Lisboa")
-print(f"Distancia Porto -> Lisboa: {dist} km")
+  dist = distancia_viagem("Porto", "Lisboa")
+  print(f"Distancia Porto -> Lisboa: {dist} km")
 
-dist2 = distancia_viagem("Lisboa", "Faro")
-print(f"Distancia Lisboa -> Faro: {dist2} km")
+  dist2 = distancia_viagem("Lisboa", "Faro")
+  print(f"Distancia Lisboa -> Faro: {dist2} km")
 
-coords = obter_coordenadas("Porto")
-print(f"Coordenadas do Porto: {coords}")
+  coords = obter_coordenadas("Porto")
+  print(f"Coordenadas do Porto: {coords}")
