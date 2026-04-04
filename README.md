@@ -117,4 +117,4 @@ Este projeto é distribuído sob a **Licença MIT**. Consulta o ficheiro `LICENS
 - Liliana Gonçalves — A049692
 - Bruna Monteiro — A045875
 - Helder Monteiro — A039652
-- Racia Atanásio — A045514
+- Francisca Atanásio — A045514
