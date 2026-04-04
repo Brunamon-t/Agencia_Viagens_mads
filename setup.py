@@ -9,8 +9,8 @@ setup(
     version="1.4.0",                               
     description="Sistema de gestão de viagens",
     long_description="Sistema de gestão de viagens com validação de custos e geolocalização",
-    long_description_content_type="text/plain",     # MAIS SIMPLES
-    author="Bruna Monteiro, Helder Monteiro, Liliana Gonçalves, Rácia Atanásio",
+    long_description_content_type="text/markdown",     
+    author="Bruna Monteiro, Hélder Monteiro, Liliana Gonçalves, Rácia Atanásio",
     author_email="A045875@ipmaia.pt",
     url="https://github.com/Brunamon-t/Agencia_Viagens_mads",
     packages=find_packages(),
